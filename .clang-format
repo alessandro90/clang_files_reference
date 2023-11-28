@@ -111,12 +111,9 @@ SpaceBeforeSquareBrackets: false
 SpaceInEmptyBlock: false
 AlignArrayOfStructures: Left
 AllowAllArgumentsOnNextLine: true
-AllowBreakBeforeNoexceptSpecifier: Never
-AllowShortCompoundRequirementOnASingleLine: true
 AllowShortEnumsOnASingleLine: true
 AllowShortLambdasOnASingleLine: All
 BitFieldColonSpacing: None
-BreakAdjacentStringLiterals: false
 BreakAfterAttributes: Never
 BreakBeforeConceptDeclarations: Always
 BreakInheritanceList: AfterComma
@@ -138,13 +135,9 @@ PPIndentWidth: -1
 PackConstructorInitializers: Never
 PenaltyBreakBeforeFirstCallParameter: 1000
 PenaltyReturnTypeOnItsOwnLine: 1000
-QualifierOrder: [
-  inline,
-  static,
-  constexpr,
-  volatile,
-  restrict,
-  type,
-  const
-]
 ReferenceAlignment: Right
+# Unrecognized for some reason
+# AllowBreakBeforeNoexceptSpecifier: Never
+# AllowShortCompoundRequirementOnASingleLine: true
+# BreakAdjacentStringLiterals: false
+# QualifierOrder: [ 'inline', 'static', 'constexpr', 'volatile', 'restrict', 'type', 'const' ]
